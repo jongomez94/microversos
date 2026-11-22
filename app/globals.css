@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #f4efe4;
+  --paper-deep: #e7dfd0;
+  --ink: #173028;
+  --ink-soft: #3c5348;
+  --moss: #234838;
+  --moss-deep: #143028;
+  --clay: #8d4324;
+  --gold: #6e5420;
+  --line: #ddd2c0;
+  --spore: #fbf8f2;
+  --mane: #f3ecdf;
+  background: var(--paper);
+  color: var(--ink);
+  color-scheme: light;
+}
+
+@theme inline {
+  --font-sans: var(--font-source), "Segoe UI", sans-serif;
+  --font-display: var(--font-fraunces), Georgia, "Times New Roman", serif;
+  --color-paper: var(--paper);
+  --color-paper-deep: var(--paper-deep);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-moss: var(--moss);
+  --color-moss-deep: var(--moss-deep);
+  --color-clay: var(--clay);
+  --color-gold: var(--gold);
+  --color-line: var(--line);
+  --color-spore: var(--spore);
+  --color-mane: var(--mane);
+}
+
+body {
+  background:
+    radial-gradient(ellipse 70% 40% at 100% -10%, rgb(168 132 61 / 0.16), transparent 55%),
+    radial-gradient(ellipse 50% 36% at -10% 8%, rgb(35 72 56 / 0.08), transparent 50%),
+    var(--paper);
+  color: var(--ink);
+  font-family: var(--font-source), "Segoe UI", sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.65;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+::selection {
+  background: #234838;
+  color: #f4efe4;
+}
+
+:focus-visible {
+  outline: 2px solid #a8843d;
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -4rem;
+  z-index: 50;
+  border-radius: 999px;
+  background: #143028;
+  color: #f4efe4;
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}

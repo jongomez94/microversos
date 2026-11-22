@@ -1,0 +1,25 @@
+# Microversos
+
+> Microversos es una iniciativa salvadoreña dedicada a los hongos comestibles y funcionales, fundada por Jonathan Gómez.
+
+Microversos tiene su base en El Salvador. Su misión es acercar los hongos a las personas de todos los días, por medio de la educación y de darlos a conocer. La visión es tener unidades de bioproducción tropical que se puedan replicar.
+
+Microversos trabaja con orellana amarilla, orellana italiana y melena de león. Ofrece kits de cultivo y semilla en grano. Vende en persona en mercados de agricultores de El Salvador.
+
+Frase de bienvenida: Bienvenido al microverso fúngico de El Salvador.
+
+## Pilares
+
+- Producción
+- Investigación
+- Educación
+- Comercialización
+
+## Secciones
+
+- [Inicio](https://microversos.com): presentación de Microversos
+- [Qué es](https://microversos.com/#que-es): iniciativa, misión y visión
+- [Pilares](https://microversos.com/#pilares): producción, investigación, educación y comercialización
+- [Especies](https://microversos.com/#especies): orellana amarilla, orellana italiana, melena de león, kits de cultivo y semilla en grano
+- [Dónde encontrarnos](https://microversos.com/#donde): venta en persona en mercados de agricultores de El Salvador
+- [Preguntas frecuentes](https://microversos.com/#preguntas): respuestas directas sobre la iniciativa
